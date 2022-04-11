@@ -1,0 +1,64 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body{
+    font-family: Helvetica, sans-serif;
+}
+img{
+    width: 300px;
+    border-radius: 30px;
+  
+}
+.card{
+    
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    align-items: center;
+    width: 300px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+ background-color: black;
+ border-radius: 30px;
+ padding: 15px;
+}
+i{
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    margin: auto;
+    padding-top: 13px;
+    
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+}
+p{
+    padding: 10px;
+    margin-top: 30px;
+}
+.icons{
+    margin-top: 30px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+.quotes{
+    color: white;
+    width: 75%;
+}
+
+.name{
+    padding: 10px;
+    color: white;
+}
