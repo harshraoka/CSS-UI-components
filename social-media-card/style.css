@@ -8,48 +8,54 @@ body{
     font-family: Helvetica, sans-serif;
 }
 img{
-    width: 300px;
+    width: 120%;
     border-radius: 30px;
   
 }
 .card{
-    
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.9);
     display: flex;
     flex-direction: column;
     margin: auto;
     margin-top: 6%;
     margin-bottom: 6%;
     align-items: center;
-    width: 300px;
+    width: 75%;
+    max-width: 350px;
     overflow-x: hidden;
     overflow-y: hidden;
  background-color: black;
- border-radius: 30px;
- padding: 15px;
+ border-radius: 10vw;
+ /* padding: 4vw; */
+ padding-bottom: 3vw;
 }
-i{
+/* i{
     width: 30px;
     height: 30px;
     align-items: center;
     margin: auto;
     padding-top: 13px;
     
-}
+} */
 
 button{
-    width: 50px;
-    height: 50px;
-    border-radius: 30px;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 100%;
+    max-width: 80px;
+    max-height: 80px;
+   
     background-color: white;
+
 }
 p{
-    padding: 10px;
-    margin-top: 30px;
+    padding: 1vw;
+    margin-top: 3vw;
 }
 .icons{
-    margin-top: 30px;
+    margin-top: 2vw;
     width: 100%;
-    
+    padding: 3vw;
     display: flex;
     justify-content: space-evenly;
 }
@@ -59,6 +65,6 @@ p{
 }
 
 .name{
-    padding: 10px;
+    padding: 4vw;
     color: white;
 }
