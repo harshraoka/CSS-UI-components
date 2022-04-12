@@ -26,6 +26,7 @@ img{
     overflow-y: hidden;
  background-color: black;
  border-radius: 10vw;
+ max-height: 60%;
  /* padding: 4vw; */
  padding-bottom: 3vw;
 }
